@@ -5,29 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edward Slight</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-    <nav>   <!-- This is the naviagtion bar -->
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About Me</a></li>
-            <li><a href="">Experience</a></li>
-            <li><a href="">Portfolio</a></li>                        
-        </ul>
-    </nav>
+
+
+
 <body>
+    <header>
+        <nav>   <!-- This is the naviagtion bar -->
+            <ul class="Navi">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Experience</a></li>
+                <li><a href="">Portfolio</a></li>                        
+            </ul>
+        </nav>
+    </header>
+
+
     <aside> <!-- This is the aside bar which will contain some additional information-->
-        <h1>Page Contents</h1>
-        <p>Welcome to my Profile Site!</p>
-        <ul>
+        <p>Webpage Content:</p>
+        <ul id = "Contents">
             <li><a href="#Title">Edward Slight</a></li>
             <li><a href="#Para1">Introduction</a></li>
             <li><a href="#Para2">Breif About Me</a></li>
-            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Contact">Contact Information</a></li>
         </ul>
     </aside>
+
+    <div class = "MainArticleFooter">
     <article> <!-- This is the main article which will contain all the information about me on my homepage-->
-        <h1 id="Title">Edward James Slight</h1>
-        <img src="/Assets/ProfilePhoto.jpg" alt="Photo of young man wearing grey sweatshirt." width="35%"> <!-- Remember to change this out!-->
+        <div id="TitlePhoto">
+            <h1 id="Title">Edward James Slight</h1>
+            <img class="Image1" src="/Assets/ProfilePhoto.jpg" alt="Photo of young man wearing grey sweatshirt." width="35%"> <!-- Remember to change this out!-->
+        </div>
         <div id="Para1">
             <h2>Software Engineer</h2>
             <p> <!-- Brief Introduction -->
@@ -46,14 +57,16 @@
             </p>
         </div>
     </article>
+
+
     <footer> <!-- This is the contact information etc-->
-        <h2 id="Contact">Contact information</h2>
-        <ul>
+        <ul id = "Contact">
             <li><p>Personal Email: teddyslight@gmail.com</p></li>
             <li><p>Work Email: edward.slight@barclays.com</p></li>
             <li><p>Phone: 07949431734</p></li>
             <li><p>Website by: Edward Slight</p></li>
         </ul>
     </footer>
+    </div>
 </body>
 </html>
